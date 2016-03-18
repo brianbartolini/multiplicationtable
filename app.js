@@ -8,7 +8,8 @@ angular.module('myApp', [])
 				numbers[i] = i + 1;
 			};
 			return numbers;
-		
+		};
+
 		$scope.compute = function(a,b) {
 			return a * b;
 		};
